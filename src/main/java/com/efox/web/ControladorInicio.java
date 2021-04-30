@@ -27,8 +27,7 @@ public class ControladorInicio {
         return usuarioServiceImpl.listarUsuarios();
     }
     
-    
-    //adssasd//
+  
     
     @GetMapping("/prueba")
     public List<Usuario> listar2(){
